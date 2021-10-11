@@ -1523,9 +1523,9 @@ dependencies = [
 
 [[package]]
 name = "goblin"
-version = "0.3.0"
+version = "0.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c69552f48b18aa6102ce0c82dd9bc9d3f8af5fc0a5797069b1b466b90570e39c"
+checksum = "32401e89c6446dcd28185931a01b1093726d0356820ac744023e6850689bf926"
 dependencies = [
  "log 0.4.11",
  "plain",
@@ -5502,9 +5502,9 @@ dependencies = [
 
 [[package]]
 name = "solana_rbpf"
-version = "0.2.5"
+version = "0.2.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6e3089d0175f975358b602072a02bd327a154399d2b54a8cf0f8f21108a4de4c"
+checksum = "e27486ed1c74044866b529076b6aa9ca6fab9ec494d1835439ec84efc5575953"
 dependencies = [
  "byteorder",
  "combine",
@@ -5513,6 +5513,7 @@ dependencies = [
  "libc",
  "log 0.4.11",
  "rand 0.7.3",
+ "rustc-demangle",
  "scroll",
  "thiserror",
  "time 0.1.43",
@@ -5819,18 +5820,18 @@ dependencies = [
 
 [[package]]
 name = "thiserror"
-version = "1.0.23"
+version = "1.0.30"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "76cc616c6abf8c8928e2fdcc0dbfab37175edd8fb49a4641066ad1364fdab146"
+checksum = "854babe52e4df1653706b98fcfc05843010039b406875930a70e4d9644e5c417"
 dependencies = [
  "thiserror-impl",
 ]
 
 [[package]]
 name = "thiserror-impl"
-version = "1.0.23"
+version = "1.0.30"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9be73a2caec27583d0046ef3796c3794f868a5bc813db689eed00c7631275cd1"
+checksum = "aa32fd3f627f367fe16f893e2597ae3c05020f8bba2666a4e6ea73d377e5714b"
 dependencies = [
  "proc-macro2 1.0.24",
  "quote 1.0.6",
